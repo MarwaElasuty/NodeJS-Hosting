@@ -111,7 +111,7 @@ const exitApp = () => {
     }, 86400000)
 }
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5032;
 app.listen(PORT, () => {
     console.log(`Graket api run on port :${PORT}`)
         // exitApp()
